@@ -45,12 +45,14 @@
 
 .right {
     position: relative;
-    
 }
 
 .imageContainer {
     width: 38rem;
     position: absolute;
+    right: 20px;
+}
 
-    left: 500px;
+.col {
+    flex: 1 0 0%;
 }

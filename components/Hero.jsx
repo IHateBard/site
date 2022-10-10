@@ -7,14 +7,14 @@ export default function Hero () {
     return(
     <div className={css.container}>
             {/* left side */}
-        <div className={css.left}>
+        <div className={`${css.left}  ${css.col}`}>
             
             <div className={css.cherryDiv}>
                 <span>Больше, чем быстрее</span>
                 <Image src={Cherry} alt="" width={40} height={25}/>
             </div>
 
-            <div className={css.heroText}>
+            <div className={`${css.heroText} ${css.col}`}>
                 <span>Самые быстрые</span>
                 <span>В доствке</span>
                 <span>
@@ -35,7 +35,7 @@ export default function Hero () {
 
             {/* right side */}
 
-        <div className={css.right}>
+        <div className={`${css.right}  ${css.col}`}>
             <div className={css.imageContainer}>
                 <Image src={HeroImage} alt="" layout="intrinsic"/>
             </div>
